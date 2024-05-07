@@ -31,13 +31,31 @@
     font-weight: bold;
 
 }
-
+.title2{
+    font-size:50px;
+    font-weight: bold;
+}
 .description {
     font-size: 1rem;
 }
-@media (max-width: 768px) {
-    .card {
+
+ 
+
+/* Default style for larger screens */
+ .flexContainer {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    flex-direction: row;
+    /* Ensures horizontal layout on larger screens */
+
+ }
+ @media (max-width: 768px) {
+     .flexContainer {
         width: 100%;
-        margin-bottom: 20px;
-    }
-}
+         flex-direction: column;
+         align-items: center;
+     }
+ }

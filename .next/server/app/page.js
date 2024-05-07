@@ -364,7 +364,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 66030:
+/***/ 19793:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -426,25 +426,25 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 23122:
+/***/ 8681:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 61522, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 97844, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 90125, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 86249, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 13100, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 90125, 23))
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 97844, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 13100, 23))
 
 /***/ }),
 
 /***/ 76733:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 21013))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 83882))
 
 /***/ }),
 
-/***/ 60024:
+/***/ 36650:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 64398))
@@ -458,7 +458,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 
 /***/ }),
 
-/***/ 21013:
+/***/ 83882:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -482,20 +482,20 @@ var react_ = __webpack_require__(18038);
 
 
 const FeatureProduct = ({ imgSrc, title, desc })=>{
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+    return /*#__PURE__*/ _jsxs("div", {
         children: [
-            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+            /*#__PURE__*/ _jsx("img", {
                 src: imgSrc,
                 width: 100,
                 height: 100,
                 alt: "features",
                 className: "mx-auto"
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx("h3", {
+            /*#__PURE__*/ _jsx("h3", {
                 className: "text-xl font-semibold",
                 children: title
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+            /*#__PURE__*/ _jsx("p", {
                 children: desc
             })
         ]
@@ -505,7 +505,7 @@ const QualityFeature = ({ imgSrc, title, desc })=>{
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
         className: "flex items-start lg:flex-row sm:flex-col gap-1 sm:gap-4 lg:gap-8",
         children: [
-            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+            /*#__PURE__*/ jsx_runtime_.jsx("img", {
                 src: imgSrc,
                 width: 80,
                 height: 80,
@@ -540,28 +540,7 @@ const Features = ()=>{
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("h2", {
                         className: "title text-center",
-                        children: "Meet the features of Innaide"
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "grid gap-8 md:grid-cols-2 lg:grid-cols-4 md:gap-5 text-center mt-10 md:mt-20",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx(FeatureProduct, {
-                                imgSrc: "/features/non-invasive-method.png",
-                                title: "Non-Invasive"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx(FeatureProduct, {
-                                imgSrc: "/features/settings.png",
-                                title: "Fully Automatic"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx(FeatureProduct, {
-                                imgSrc: "/features/selfcare.png",
-                                title: "Personalized Care"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx(FeatureProduct, {
-                                imgSrc: "/features/decision-making.png",
-                                title: "Discretion"
-                            })
-                        ]
+                        children: "ABOUT US"
                     })
                 ]
             }),
@@ -570,22 +549,22 @@ const Features = ()=>{
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx(QualityFeature, {
                         imgSrc: "/features/non-invasive-method.png",
-                        title: "Non-Invasive",
+                        title: "Our Mission",
                         desc: "Experience comfort and ease with INNAIDE's non-invasive approach, eliminating the need for surgical interventions or uncomfortable treatments."
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx(QualityFeature, {
                         imgSrc: "/features/settings.png",
-                        title: "Fully Automatic",
+                        title: "Our Vision",
                         desc: "INNAIDE operates automatically, ensuring your pelvic floor muscles are strengthened with minimal effort on your part. Simply wear it and let the technology do the work."
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx(QualityFeature, {
                         imgSrc: "/features/selfcare.png",
-                        title: "Personalised Care",
+                        title: "Our Aim",
                         desc: "Tailored specifically to your condition, INNAIDE adapts to provide customized support and stimulation, ensuring optimal results tailored to your body’s needs."
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx(QualityFeature, {
                         imgSrc: "/features/decision-making.png",
-                        title: "Discretion",
+                        title: "Our Flagship Product",
                         desc: "Designed with privacy in mind, INNAIDE is discreet enough to be worn under your everyday clothing, allowing you to manage SUI without changing your lifestyle."
                     })
                 ]
@@ -664,28 +643,21 @@ var BlockCard_module_default = /*#__PURE__*/__webpack_require__.n(BlockCard_modu
 
 
 const BlockCard = ({ title, description, imageUrl })=>{
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
         className: (BlockCard_module_default()).card,
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                src: imageUrl,
-                alt: title,
-                className: (BlockCard_module_default()).image
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: (BlockCard_module_default()).content,
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                        className: (BlockCard_module_default()).title1,
-                        children: title
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                        className: (BlockCard_module_default()).description,
-                        children: description
-                    })
-                ]
-            })
-        ]
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+            className: (BlockCard_module_default()).content,
+            children: [
+                /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+                    className: (BlockCard_module_default()).title1,
+                    children: title
+                }),
+                /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                    className: (BlockCard_module_default()).description,
+                    children: description
+                })
+            ]
+        })
     });
 };
 // pages/index.js
@@ -695,32 +667,32 @@ const IndexPage = ()=>{
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            minHeight: "70vh"
+            minHeight: "50vh"
         },
         id: "Resources",
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                className: "title text-center",
-                children: "RESOURCES"
+                className: (BlockCard_module_default()).title2,
+                children: "WHY INNAIDE?"
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                style: {
-                    display: "flex",
-                    gap: "150px",
-                    justifyContent: "center",
-                    width: "100%",
-                    marginTop: "30px"
-                },
+                className: (BlockCard_module_default()).flexContainer,
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx(BlockCard, {
                         title: "“one in four women globally over the age of 18 experience episodes of leaking urine involuntarily.”",
-                        description: "National Association for Incontinence Statistics",
-                        imageUrl: "/features/Research.jpg"
+                        description: "National Association for Incontinence Statistics"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx(BlockCard, {
                         title: "“After 6 months of EMS therapy to the pelvic floor muscles, nearly 73% of the examined patients reported an improvement in continence”",
-                        description: "Maharaj Medical University",
-                        imageUrl: "/features/8454.jpg"
+                        description: "Maharaj Medical University"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx(BlockCard, {
+                        title: "“one in four women globally over the age of 18 experience episodes of leaking urine involuntarily.”",
+                        description: "National Association for Incontinence Statistics"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx(BlockCard, {
+                        title: "“one in four women globally over the age of 18 experience episodes of leaking urine involuntarily.”",
+                        description: "National Association for Incontinence Statistics"
                     })
                 ]
             })
@@ -729,38 +701,101 @@ const IndexPage = ()=>{
 };
 /* harmony default export */ const Resources = (IndexPage);
 
-// EXTERNAL MODULE: ./node_modules/@mui/icons-material/LinkedIn.js
-var LinkedIn = __webpack_require__(18532);
+// EXTERNAL MODULE: ./src/components/FaqAccordion.module.css
+var FaqAccordion_module = __webpack_require__(53644);
+var FaqAccordion_module_default = /*#__PURE__*/__webpack_require__.n(FaqAccordion_module);
+;// CONCATENATED MODULE: ./src/components/FAQ.js
+
+
+
+const faqs = [
+    {
+        question: "What is Next.js?",
+        answer: "Next.js is a React framework that enables functionality such as server-side rendering and generating static websites."
+    },
+    {
+        question: "What is Next.js?",
+        answer: "Next.js is a React framework that enables functionality such as server-side rendering and generating static websites."
+    },
+    {
+        question: "What is Next.js?",
+        answer: "Next.js is a React framework that enables functionality such as server-side rendering and generating static websites."
+    },
+    {
+        question: "Why use Next.js?",
+        answer: "Next.js provides a lot of features like fast refresh, image optimization, internationalization, and more out of the box."
+    }
+];
+const FaqAccordion = ()=>{
+    const [activeIndex, setActiveIndex] = (0,react_.useState)(null);
+    const handleToggle = (index)=>{
+        setActiveIndex(activeIndex === index ? null : index);
+    };
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+        id: "FAQ",
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                className: (FaqAccordion_module_default()).faqTitle,
+                children: "Do you have any Questions? "
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: (FaqAccordion_module_default()).accordion,
+                children: faqs.map((faq, index)=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (FaqAccordion_module_default()).item,
+                        children: [
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("button", {
+                                className: (FaqAccordion_module_default()).question,
+                                onClick: ()=>handleToggle(index),
+                                children: [
+                                    faq.question,
+                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                        className: (FaqAccordion_module_default()).icon,
+                                        children: activeIndex === index ? "-" : "+"
+                                    })
+                                ]
+                            }),
+                            activeIndex === index && /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: (FaqAccordion_module_default()).answer,
+                                children: faq.answer
+                            })
+                        ]
+                    }, index))
+            })
+        ]
+    });
+};
+/* harmony default export */ const FAQ = (FaqAccordion);
+
 ;// CONCATENATED MODULE: ./src/components/Team.js
 
 
 
 
 const TeamCard = ({ imgSrc, name, title })=>{
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+    return /*#__PURE__*/ _jsxs("div", {
         className: "relative flex flex-col gap-1 md:hover:shadow-lg rounded-xl md:py-10 team-card md:cursor-pointer",
         children: [
-            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+            /*#__PURE__*/ _jsx(Image, {
                 src: imgSrc,
                 width: 130,
                 height: 130,
                 alt: "team member",
                 className: "drop-shadow-2xl w-20 sm:w-32 md:mb-5 mb-3 rounded-full border-2 border-blue-500 mx-auto"
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+            /*#__PURE__*/ _jsx("h2", {
                 className: "text-base sm:text-xl font-semibold text-center",
                 children: name
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+            /*#__PURE__*/ _jsx("p", {
                 className: "text-center sm:text-base text-sm",
                 children: title
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+            /*#__PURE__*/ _jsx("div", {
                 className: "flex md:flex-col gap-3 md:absolute md:bottom-12 md:right-8 md:translate-y-10 icons md:transition-all md:duration-500 md:opacity-0 mx-auto md:mx-0 md:text-rose-600",
-                children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                children: /*#__PURE__*/ _jsx(Link, {
                     target: "_blank",
                     href: "https://www.linkedin.com/in/vishvarajbiotech",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx(LinkedIn/* default */.Z, {
+                    children: /*#__PURE__*/ _jsx(LinkedInIcon, {
                         className: "text-xl hover:text-blue-500 cursor-pointer md:hover:text-gray-500"
                     })
                 })
@@ -769,29 +804,29 @@ const TeamCard = ({ imgSrc, name, title })=>{
     });
 };
 const Team = ()=>{
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
+    return /*#__PURE__*/ _jsxs("section", {
         className: "container mx-auto px-5 md:px-16 lg:px-24",
         id: "Team",
         children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+            /*#__PURE__*/ _jsx("span", {
                 className: "service-name text-center",
                 children: "OUR TEAM"
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+            /*#__PURE__*/ _jsx("h2", {
                 className: "title text-center md:w-1/2 mx-auto",
                 children: "The most qualified and talented Founder"
             }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+            /*#__PURE__*/ _jsxs("div", {
                 className: "mx-auto grid grid-cols-2 lg:grid-cols-3 gap-y-8 sm:gap-8 mt-16",
                 children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(TeamCard, {
+                    /*#__PURE__*/ _jsx(TeamCard, {
                         imgSrc: "/team/vishva.jpeg",
                         name: "Vishva Raj",
                         title: "Founder"
                     }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    /*#__PURE__*/ _jsx("div", {
                         className: "flex flex-col justify-center lg:col-span-2",
-                        children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                        children: /*#__PURE__*/ _jsx("p", {
                             className: "text-lg text-gray-700",
                             children: '"As a biotechnology engineering student at Netaji Subhas University of Technology, I am passionate about applying my knowledge and skills to solve real-world problems and create innovative solutions."'
                         })
@@ -801,7 +836,7 @@ const Team = ()=>{
         ]
     });
 };
-/* harmony default export */ const components_Team = (Team);
+/* harmony default export */ const components_Team = ((/* unused pure expression or super */ null && (Team)));
 
 ;// CONCATENATED MODULE: ./src/components/Work.js
 
@@ -923,8 +958,197 @@ const Work = ()=>{
 };
 /* harmony default export */ const components_Work = (Work);
 
+;// CONCATENATED MODULE: ./src/components/AppData.js
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+
+
+
+const ServiceCard = ({ imgSrc, title, desc })=>{
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+        className: "flex items-start gap-3 sm:gap-10 lg:w-[90%]",
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                src: imgSrc,
+                width: 70,
+                height: 70,
+                alt: "features",
+                className: "mx-auto"
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("h3", {
+                        className: "text-lg font-semibold mb-2",
+                        children: title
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                        className: "leading-loose",
+                        children: desc
+                    })
+                ]
+            })
+        ]
+    });
+};
+const Services = ()=>{
+    return /*#__PURE__*/ jsx_runtime_.jsx("section", {
+        className: "relative container px-5 md:px-16 mx-auto",
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+            className: "flex gap-10 items-center flex-col-reverse lg:flex-row",
+            children: [
+                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                    className: "relative w-full flex-1",
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            src: "/videobanner.png",
+                            width: 500,
+                            height: 500,
+                            alt: "video banner",
+                            className: "object-cover w-full"
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                            className: "w-32 h-32 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                        })
+                    ]
+                }),
+                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                    className: "flex gap-5 md:gap-10 flex-col flex-1",
+                    children: [
+                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                            className: "flex flex-col gap-4",
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                    className: "service-name text-center lg:text-left",
+                                    children: "OUR SERVICES"
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+                                    className: "text-3xl md:text-5xl font-bold text-center lg:text-left",
+                                    children: "Business Goals Achieved with Design"
+                                })
+                            ]
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx(ServiceCard, {
+                            imgSrc: "/features/3.svg",
+                            title: "Smart Features",
+                            desc: "Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests."
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx(ServiceCard, {
+                            imgSrc: "/features/2.svg",
+                            title: "Secure Contents",
+                            desc: "Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests."
+                        })
+                    ]
+                })
+            ]
+        })
+    });
+};
+/* harmony default export */ const AppData = (Services);
+
+;// CONCATENATED MODULE: ./src/components/USP.js
+
+
+
+const Card = ({ imgSrc, title })=>{
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+        className: "flex flex-col gap-4 md:gap-6",
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                src: imgSrc,
+                width: 50,
+                height: 50,
+                alt: "community image",
+                className: "mx-auto"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+                className: "text-xl font-semibold",
+                children: title
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                className: "leading-loose",
+                children: "Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor."
+            })
+        ]
+    });
+};
+const USP = ()=>{
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
+        className: "container mx-auto px-16 lg:px-32",
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                className: (FaqAccordion_module_default()).faqTitle,
+                children: " OUR USP"
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: "grid sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-2 lg:gap-16 text-center mx-auto",
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx(Card, {
+                        imgSrc: "/community/1.svg",
+                        title: "Sleep Better"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx(Card, {
+                        imgSrc: "/community/2.svg",
+                        title: "Stay Calm"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx(Card, {
+                        imgSrc: "/community/3.svg",
+                        title: "Safe"
+                    })
+                ]
+            })
+        ]
+    });
+};
+/* harmony default export */ const components_USP = (USP);
+
+;// CONCATENATED MODULE: ./src/components/ContactUs.js
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+
+const ContactUs = ()=>{
+    const [btnText, setBtnText] = (0,react_.useState)("SEND");
+    return /*#__PURE__*/ jsx_runtime_.jsx("section", {
+        className: "container mx-auto px-5 md:px-16",
+        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+            className: "bg-blue-500 rounded-lg text-white py-16 sm:py-24",
+            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: "flex flex-col items-center gap-4 sm:gap-6 w-[90%] md:w-4/5 lg:w-1/2 text-center mx-auto",
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+                        className: "text-2xl sm:text-4xl font-semibold",
+                        children: "CONTACT US"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                        className: "leading-loose font-[500]",
+                        children: "Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod tempor incididunt labore dolore."
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: "relative w-full",
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("input", {
+                                type: "email",
+                                placeholder: "Enter your email address",
+                                className: " rounded-full bg-white px-3 py-4 text-center sm:text-left sm:p-6 border-none outline-none w-full font-[500] text-black"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                variant: "outlined",
+                                onClick: ()=>setBtnText("Submitting..."),
+                                className: "sm:w-fit w-full mt-2 sm:mt-0 capitalize sm:absolute sm:top-2 md:top-[.4rem] sm:right-2 md:text-base text-sm hover:border-2 border-2 border-transparent font-semibold py-4 px-7 text-white bg-blue-500 sm:bg-blue-600 hover:border-blue-600 hover:bg-blue-700 sm:hover:bg-blue-600 hover:shadow-2xl hover:shadow-blue-600  rounded-full",
+                                children: btnText
+                            })
+                        ]
+                    })
+                ]
+            })
+        })
+    });
+};
+/* harmony default export */ const components_ContactUs = (ContactUs);
+
 ;// CONCATENATED MODULE: ./src/app/page.js
 /* __next_internal_client_entry_do_not_use__ default auto */ 
+
+
+
+
 
 
 
@@ -937,8 +1161,11 @@ function Home() {
             /*#__PURE__*/ jsx_runtime_.jsx(components_HeroSection, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(components_Features, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(Resources, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(FAQ, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(components_Work, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx(components_Team, {})
+            /*#__PURE__*/ jsx_runtime_.jsx(components_USP, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(AppData, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(components_ContactUs, {})
         ]
     });
 }
@@ -1056,8 +1283,9 @@ const Navbar = ()=>{
                             [
                                 "about",
                                 "features",
-                                "Resources",
-                                "Team"
+                                "FAQ",
+                                "Team",
+                                "USP"
                             ].map((link)=>/*#__PURE__*/ jsx_runtime_.jsx("li", {
                                     className: `${selectedItem === link ? "text-blue-600" : ""} capitalize border-b py-4 md:border-none md:py-0 hover:text-blue-600`,
                                     onClick: ()=>setSelectedItem(link),
@@ -1111,7 +1339,7 @@ const Navbar = ()=>{
                                 borderColor: "#026CBE"
                             },
                             children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                href: "#Team",
+                                href: "#Footer",
                                 children: "Get in Touch"
                             })
                         }),
@@ -1144,6 +1372,7 @@ var Twitter = __webpack_require__(27370);
 const Footer = ()=>{
     return /*#__PURE__*/ jsx_runtime_.jsx("footer", {
         className: "border-t border-neutral-200 mt-16 px-5 md:px-16 py-10 md:py-16",
+        id: "Footer",
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
             className: "container mx-auto",
             children: [
@@ -1422,7 +1651,25 @@ module.exports = {
 	"image": "BlockCard_image__HREXq",
 	"content": "BlockCard_content__07nwP",
 	"title1": "BlockCard_title1___V_7N",
-	"description": "BlockCard_description__cc6Iy"
+	"title2": "BlockCard_title2__gogY8",
+	"description": "BlockCard_description__cc6Iy",
+	"flexContainer": "BlockCard_flexContainer__Ck5GI"
+};
+
+
+/***/ }),
+
+/***/ 53644:
+/***/ ((module) => {
+
+// Exports
+module.exports = {
+	"accordion": "FaqAccordion_accordion__1XTc6",
+	"item": "FaqAccordion_item__uhtqB",
+	"question": "FaqAccordion_question__HzXSX",
+	"faqTitle": "FaqAccordion_faqTitle__h9rIL",
+	"answer": "FaqAccordion_answer__1isv_",
+	"icon": "FaqAccordion_icon___IOrS"
 };
 
 
@@ -1611,7 +1858,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [763,837], () => (__webpack_exec__(66030)));
+var __webpack_exports__ = __webpack_require__.X(0, [763,837], () => (__webpack_exec__(19793)));
 module.exports = __webpack_exports__;
 
 })();

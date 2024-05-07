@@ -6,7 +6,7 @@ import styles from './BlockCard.module.css';
 const BlockCard = ({ title, description, imageUrl }) => {
   return (
     <div className={styles.card}>
-      <img src={imageUrl} alt={title} className={styles.image} />
+      {/* <img src={imageUrl} alt={title} className={styles.image} /> */}
       <div className={styles.content}>
         <h2 className={styles.title1} >{title}</h2>
         <p className={styles.description}>{description}</p>
@@ -21,20 +21,30 @@ const BlockCard = ({ title, description, imageUrl }) => {
 
 const IndexPage = () => {
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', minHeight: '70vh' }} id="Resources">
+    <div  style={{ display: 'flex',flexDirection: 'column' ,alignItems: 'center', minHeight: '50vh' }} id="Resources">
        
    
-      <h1 className="title text-center">RESOURCES</h1>
-       <div style={{ display: 'flex', gap: '150px', justifyContent: 'center', width: '100%', marginTop:'30px' }}>
-       <BlockCard 
+      <h1 className={styles.title2} >WHY INNAIDE?</h1>
+       <div className= {styles.flexContainer} >
+       <BlockCard  
           title="“one in four women globally over the age of 18 experience episodes of leaking urine involuntarily.”"
           description="National Association for Incontinence Statistics"
-          imageUrl="/features/Research.jpg"
+          // imageUrl="/features/Research.jpg"
         />
         <BlockCard
           title="“After 6 months of EMS therapy to the pelvic floor muscles, nearly 73% of the examined patients reported an improvement in continence”"
           description="Maharaj Medical University"
-          imageUrl="/features/8454.jpg"
+          // imageUrl="/features/8454.jpg"
+        />
+        <BlockCard 
+          title="“one in four women globally over the age of 18 experience episodes of leaking urine involuntarily.”"
+          description="National Association for Incontinence Statistics"
+          // imageUrl="/features/Research.jpg"
+        />
+        <BlockCard 
+          title="“one in four women globally over the age of 18 experience episodes of leaking urine involuntarily.”"
+          description="National Association for Incontinence Statistics"
+          // imageUrl="/features/Research.jpg"
         />
        
          </div>

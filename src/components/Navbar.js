@@ -63,7 +63,7 @@ const Navbar = () => {
             >
               <CloseOutlinedIcon />
             </button>
-            {["about", "features","Resources", "Team"].map((link) => (
+            {["about", "features","FAQ", "Team", "USP"].map((link) => (
               <li
                 key={link}
                 className={`${
@@ -103,7 +103,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-2 sm:gap-4 md:gap-2 lg:gap-4">
           <button  className="capitalize text-sm sm:text-base border-2 hover:border-2 font-semibold text-blue-600 sm:py-3 py-2 px-3 sm:px-6 border-rose-600 hover:border-blue-600 custom-hover-bg hover:text-white rounded-full" style={{ borderColor: '#026CBE' }}>
-            <Link href={"#Team"}>Get in Touch</Link>
+            <Link href={"#Footer"}>Get in Touch</Link>
           </button>
           {/* <button>
             {theme === "dark" ? (
@@ -131,3 +131,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
