@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import product from "/Users/anshbathla/Downloads/product2.png"
+
 
 const HeroSection = () => {
   return (
@@ -26,7 +26,7 @@ const HeroSection = () => {
     </div>
     <div>
       <Image
-        src={product}
+        src="/features/product2.png"
         width="500"
         height="500"
          style={{ borderRadius: '20px' }}
